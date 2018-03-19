@@ -1,7 +1,52 @@
-h3.home-content {
+div.home-content{
     font-size: 222%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+div.home-perform{
+    margin-bottom: 5em;
+}
+hr{
+    border-top: 1px solid #d6c7c7;
+}
+
+div.bc-social {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+}
+ul.bc-social-buttons {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+ul.bc-social-buttons li{
+    display:inline-block;
+    line-height: 1;
+    color: #555;
+}
+ul.bc-social-buttons>li+li:before {
+    padding: 0 10px;
+    color: #d44141;
+    content: "|";
+}
+@media screen and (min-width: 768px){
+    .masthead {
+        padding-top: 90px;
+        padding-right: 0px;
+        padding-bottom: 110px;
+        padding-left: 0px;
+    }
+}
+
+.masthead {
+    /*padding: 90px 0 130px;*/
+    margin-bottom: 0;
+    color: #fff;
+    background: linear-gradient(45deg, #020031 0,#2f869a 100%);
 }

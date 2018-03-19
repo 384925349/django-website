@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% block title %}{% endblock %}</title>
@@ -33,6 +33,9 @@
                          <a href="{% url 'blog_list' %}">博客</a>
                      </li>
                  </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                  <li><a href="/admin">登录|Login</a></li>
+                </ul>
             </div>
         </div>
     </div>
